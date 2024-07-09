@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예제9-7</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var win;
+        function open_window() {
+            var url = prompt("원하는 URL 주소를 입력하시오");
+            if (URL) win = window.open(url);
+        }
+    </script>
+
+    <button onclick="open_window();">open a a page with new window</button>
+    <button onclick="win.close();">close the window</button>
+</body>
+</html>
